@@ -3,4 +3,4 @@ language: php
 php:
   - 7.0
 
-composer install
+install: composer install
