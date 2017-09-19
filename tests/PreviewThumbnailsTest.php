@@ -2,13 +2,12 @@
 
 namespace Tests;
 
-use Orchestra\Testbench\TestCase as BaseTest;
 use BlackBits\PreviewThumbnails\PreviewThumbnailsFacade;
 use BlackBits\PreviewThumbnails\PreviewThumbnailsServiceProvider;
 use BlackBits\PreviewThumbnails\PreviewThumbnails;
 
 
-class TestCase extends BaseTest
+class TestCase extends \Orchestra\Testbench\TestCase
 {
     protected $timespan;
     protected $files;
